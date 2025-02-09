@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="data.xsl"?>
+
+<fitness_center version="1.0">
+  <service>
+    <type>Персональні тренування</type>
+    <cost>500</cost>
+    <instructor>
+      <surname>Іванов</surname>
+      <name>Олександр</name>
+      <patronymic>Петрович</patronymic>
+      <education>Вища, магістр спорту</education>
+    </instructor>
+    <schedule>
+      <day>Понеділок</day>
+      <time>10:00 - 11:00</time>
+      <day>Середа</day>
+      <time>14:00 - 15:00</time>
+      <day>П’ятниця</day>
+      <time>18:00 - 19:00</time>
+    </schedule>
+  </service>
+  <service>
+    <type>Групові тренування</type>
+    <cost>250</cost>
+    <instructor>
+      <surname>Мельник</surname>
+      <name>Марина</name>
+      <patronymic>Володимирівна</patronymic>
+      <education>Вища, спеціаліст фізичної культури</education>
+    </instructor>
+    <schedule>
+      <day>Вівторок</day>
+      <time>09:00 - 10:00</time>
+      <day>Четвер</day>
+      <time>17:00 - 18:00</time>
+      <day>Субота</day>
+      <time>11:00 - 12:00</time>
+    </schedule>
+  </service>
+  <service>
+    <type>Фітнес для вагітних</type>
+    <cost>300</cost>
+    <instructor>
+      <surname>Григоренко</surname>
+      <name>Тетяна</name>
+      <patronymic>Ігорівна</patronymic>
+      <education>Вища, сертифікований інструктор з фітнесу для вагітних</education>
+    </instructor>
+    <schedule>
+      <day>Понеділок</day>
+      <time>12:00 - 13:00</time>
+      <day>Четвер</day>
+      <time>15:00 - 16:00</time>
+    </schedule>
+  </service>
+  <service>
+    <type>Йога</type>
+    <cost>200</cost>
+    <instructor>
+      <surname>Демченко</surname>
+      <name>Ірина</name>
+      <patronymic>Іванівна</patronymic>
+      <education>Вища, сертифікований йога-інструктор</education>
+    </instructor>
+    <schedule>
+      <day>Вівторок</day>
+      <time>18:00 - 19:00</time>
+      <day>Четвер</day>
+      <time>09:00 - 10:00</time>
+      <day>Субота</day>
+      <time>16:00 - 17:00</time>
+    </schedule>
+  </service>
+  <service>
+    <type>Сауна</type>
+    <cost>150</cost>
+    <instructor>
+      <surname>Петренко</surname>
+      <name>Олег</name>
+      <patronymic>Миколайович</patronymic>
+      <education>Середня спеціальна, фахівець з роботи в сауні</education>
+    </instructor>
+    <schedule>
+      <day>Понеділок</day>
+      <time>09:00 - 21:00</time>
+      <day>Середа</day>
+      <time>09:00 - 21:00</time>
+      <day>П’ятниця</day>
+      <time>09:00 - 21:00</time>
+    </schedule>
+  </service>
+  <service>
+    <type>Плавання</type>
+    <cost>350</cost>
+    <instructor>
+      <surname>Ковальчук</surname>
+      <name>Іван</name>
+      <patronymic>Сергійович</patronymic>
+      <education>Вища, тренер з плавання</education>
+    </instructor>
+    <schedule>
+      <day>Понеділок</day>
+      <time>08:00 - 09:00</time>
+      <day>Середа</day>
+      <time>10:00 - 11:00</time>
+      <day>П’ятниця</day>
+      <time>12:00 - 13:00</time>
+    </schedule>
+  </service>
+
+  <service>
+    <type>Кроссфіт</type>
+    <cost>450</cost>
+    <instructor>
+      <surname>Левченко</surname>
+      <name>Катерина</name>
+      <patronymic>Миколаївна</patronymic>
+      <education>Вища, тренер з кроссфіту</education>
+    </instructor>
+    <schedule>
+      <day>Вівторок</day>
+      <time>18:30 - 19:30</time>
+      <day>Четвер</day>
+      <time>20:00 - 21:00</time>
+      <day>Субота</day>
+      <time>09:00 - 10:00</time>
+    </schedule>
+  </service>
+
+  <service>
+    <type>Аеробіка</type>
+    <cost>220</cost>
+    <instructor>
+      <surname>Сидоренко</surname>
+      <name>Олена</name>
+      <patronymic>Віталіївна</patronymic>
+      <education>Вища, інструктор з аеробіки</education>
+    </instructor>
+    <schedule>
+      <day>Понеділок</day>
+      <time>17:00 - 18:00</time>
+      <day>Середа</day>
+      <time>09:30 - 10:30</time>
+      <day>П’ятниця</day>
+      <time>19:30 - 20:30</time>
+    </schedule>
+  </service>
+
+  <service>
+    <type>Пілатес</type>
+    <cost>270</cost>
+    <instructor>
+      <surname>Тимощук</surname>
+      <name>Марія</name>
+      <patronymic>Петропавлівна</patronymic>
+      <education>Вища, сертифікований інструктор з пілатесу</education>
+    </instructor>
+    <schedule>
+      <day>Вівторок</day>
+      <time>11:00 - 12:00</time>
+      <day>Четвер</day>
+      <time>18:00 - 19:00</time>
+      <day>Субота</day>
+      <time>13:00 - 14:00</time>
+    </schedule>
+  </service>
+
+  <service>
+    <type>Танці</type>
+    <cost>200</cost>
+    <instructor>
+      <surname>Шевченко</surname>
+      <name>Іванка</name>
+      <patronymic>Олексіївна</patronymic>
+      <education>Вища, танцювальний інструктор</education>
+    </instructor>
+    <schedule>
+      <day>Понеділок</day>
+      <time>18:30 - 19:30</time>
+      <day>Середа</day>
+      <time>14:30 - 15:30</time>
+      <day>Субота</day>
+      <time>10:00 - 11:00</time>
+    </schedule>
+  </service>
+</fitness_center>

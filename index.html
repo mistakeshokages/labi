@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>СТІП</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+
+    <div class="flex min-h-screen">
+        <aside class="w-64 bg-blue-600 text-white p-5 shadow-lg">
+            <h1 class="text-center text-xl font-bold mb-4">Навігація</h1>
+            <nav>
+                <ul id="lab-list" class="flex flex-col items-center space-y-3 text-center"></ul>
+            </nav>
+        </aside>
+
+        <main class="flex-1 p-10">
+            <header class="text-center">
+                <div class="text-2xl font-bold text-center leading-relaxed">
+                    <p>Звіт</p>
+                    <p>про лабораторні роботи з курсу</p>
+                    <p>«Сучасні технології Інтернет-програмування»</p>
+                    <p>студента групи ІПЗ-22-1</p>
+                    <p>Олександр Глебенко</p>
+                </div>
+            </header>
+
+            <div class="mt-8 bg-white p-6 rounded-lg shadow-lg">
+                <div class="flex justify-center space-x-4">
+                    <button id="conditionBtn"
+                        class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition"
+                        onclick="displayContent('task')">
+                        Завдання
+                    </button>
+                    <button id="resultBtn"
+                        class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded transition"
+                        onclick="displayContent('result')">
+                        Посилання на готовий результат
+                    </button>
+                    <button id="codeBtn"
+                        class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition"
+                        onclick="displayContent('code')">
+                        Посилання на код
+                    </button>
+                </div>
+
+            </div>
+
+            <div id="contentContainer" class="my-20">
+            </div>
+        </main>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>

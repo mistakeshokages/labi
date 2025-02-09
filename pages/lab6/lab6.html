@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анімація з jQuery</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        #textElement {
+            font-size: 24px;
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+
+<body class="flex justify-center items-center min-h-screen flex-col">
+
+    <button id="animateButton" class="px-4 py-2 bg-blue-500 text-white rounded mb-5">Запустити анімацію</button>
+
+    <p id="textElement">ІСПР</p>
+
+    <script src="/js/script_6.js"></script>
+
+</body>
+
+</html>

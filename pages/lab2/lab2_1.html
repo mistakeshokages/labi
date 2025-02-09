@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Меню</title>
+</head>
+
+<body class="text-blue-900 font-sans">
+    <div class="max-w-8xl mx-auto p-6">
+        <div class="flex">
+            <div class="w-64 bg-white shadow-lg rounded-lg">
+                <ul class="space-y-2">
+                    <li class="group">
+                        <button onclick="toggleSubMenu('submenu1')"
+                            class="w-full text-left px-4 py-2 text-lg font-semibold hover:bg-blue-200">Пункт 1</button>
+                        <ul id="submenu1" class="submenu hidden pl-6 space-y-2">
+                            <li><a href="/index.html" class="block text-blue-600 hover:text-blue-900 py-2">Пункт 1</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="group">
+                        <button onclick="toggleSubMenu('submenu2')"
+                            class="w-full text-left px-4 py-2 text-lg font-semibold hover:bg-blue-200">Пункт 2</button>
+                        <ul id="submenu2" class="submenu hidden pl-6 space-y-2">
+                            <li><a href="Lab2_1.html" class="block text-blue-600 hover:text-blue-900 py-2">Пункт 2.1</a>
+                            </li>
+                            <li><a href="Lab2_2.html" class="block text-blue-600 hover:text-blue-900 py-2">Пункт 2.2</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="group">
+                        <button onclick="toggleSubMenu('submenu3')"
+                            class="w-full text-left px-4 py-2 text-lg font-semibold hover:bg-blue-200">Пункт 3</button>
+                        <ul id="submenu3" class="submenu hidden pl-6 space-y-2">
+                            <li><a href="Lab3_1.html" class="block text-blue-600 hover:text-blue-900 py-2">Пункт 3.1</a>
+                            </li>
+                            <li><a href="Lab3_2.html" class="block text-blue-600 hover:text-blue-900 py-2">Пункт 3.2</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/script_2.js"></script>
+
+</body>
+
+</html>

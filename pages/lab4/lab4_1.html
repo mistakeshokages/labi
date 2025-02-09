@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма реєстрації</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="container mx-auto p-4">
+        <h2 class="text-xl font-semibold mb-4">Форма реєстрації</h2>
+        <form id="registrationForm">
+            <div class="mb-4">
+                <label for="firstName" class="block text-sm font-medium">Ім'я:</label>
+                <input type="text" id="firstName" name="firstName"
+                    class="mt-1 block w-full px-4 py-2 border rounded-md" />
+                <div id="firstNameHint" class="text-red-500 text-sm mt-1"></div>
+            </div>
+
+            <div class="mb-4">
+                <label for="lastName" class="block text-sm font-medium">Прізвище:</label>
+                <input type="text" id="lastName" name="lastName"
+                    class="mt-1 block w-full px-4 py-2 border rounded-md" />
+                <div id="lastNameHint" class="text-red-500 text-sm mt-1"></div>
+            </div>
+
+            <div class="mb-4">
+                <label for="orgName" class="block text-sm font-medium">Найменування організації:</label>
+                <input type="text" id="orgName" name="orgName" class="mt-1 block w-full px-4 py-2 border rounded-md" />
+                <div id="orgNameHint" class="text-red-500 text-sm mt-1"></div>
+            </div>
+
+            <div class="mb-4">
+                <label for="creditCard" class="block text-sm font-medium">Номер кредитної картки:</label>
+                <input type="text" id="creditCard" name="creditCard"
+                    class="mt-1 block w-full px-4 py-2 border rounded-md" />
+                <div id="creditCardHint" class="text-red-500 text-sm mt-1"></div>
+            </div>
+
+            <div class="mb-4">
+                <label for="phone" class="block text-sm font-medium">Номер телефону:</label>
+                <input type="text" id="phone" name="phone" class="mt-1 block w-full px-4 py-2 border rounded-md" />
+                <div id="phoneHint" class="text-red-500 text-sm mt-1"></div>
+            </div>
+
+            <div class="mb-4">
+                <label for="email" class="block text-sm font-medium">Адреса електронної пошти:</label>
+                <input type="text" id="email" name="email" class="mt-1 block w-full px-4 py-2 border rounded-md" />
+                <div id="emailHint" class="text-red-500 text-sm mt-1"></div>
+            </div>
+
+            <div id="errorMessage" class="text-red-500 text-sm mt-4"></div>
+
+            <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-md">Надіслати</button>
+        </form>
+    </div>
+
+    <script src="/js/script_4.js"></script>
+</body>
+
+</html>

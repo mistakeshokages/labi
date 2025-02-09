@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JQuery</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-color: #f0f0f0;
+    }
+
+    #greenBox {
+      width: 200px;
+      height: 200px;
+      background-color: green;
+      position: absolute;
+    }
+
+    #keywordField {
+      display: none;
+    }
+
+    .text {
+      font-size: 18px;
+      position: absolute;
+      left: 0;
+      top: 50px;
+      transition: all 0.3s ease;
+    }
+  </style>
+</head>
+
+<body class="flex justify-center items-center min-h-screen flex-col">
+
+  <div id="greenBox"></div>
+
+  <p class="text">Робота з jQuery</p>
+
+  <div class="mt-5">
+    <label for="addKeywordCheckbox" class="inline-flex items-center">
+      <input type="checkbox" id="addKeywordCheckbox" class="mr-2">
+      Показати поле
+    </label>
+
+    <div id="keywordField" class="mt-3">
+      <input type="text" id="keywordInput" class="px-4 py-2 border border-gray-300 rounded">
+    </div>
+  </div>
+
+  <script src="/js/script_5.js">
+
+  </script>
+
+</body>
+
+</html>

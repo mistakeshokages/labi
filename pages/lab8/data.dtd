@@ -1,0 +1,20 @@
+<!DOCTYPE fitness_center [
+  <!ELEMENT fitness_center (service+)>
+  
+  <!ELEMENT service (type, cost, instructor, schedule+)>
+  <!ATTLIST service id ID #REQUIRED>
+  
+  <!ELEMENT type (#PCDATA)>
+  <!ELEMENT cost (#PCDATA)>
+  
+  <!ELEMENT instructor (surname, name, patronymic, education)>
+  <!ELEMENT surname (#PCDATA)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT patronymic (#PCDATA)>
+  <!ELEMENT education (#PCDATA)>
+  
+  <!ELEMENT schedule (day, time+)>
+  <!ELEMENT day (#PCDATA)>
+  <!ELEMENT time (#PCDATA)>
+  
+]>
