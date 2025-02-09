@@ -62,7 +62,7 @@ function generateResultLink() {
 
   };
   return resultLinks[currentLabNumber] || 
-  `<a class="text-blue-400" href="pages/Lab${currentLabNumber}/Lab${currentLabNumber}.html" target="_blank">
+  `<a class="text-blue-400" href="pages/lab${currentLabNumber}/lab${currentLabNumber}.html" target="_blank">
   Результат виконання лабораторної роботи №${currentLabNumber}</a>`;
 }
 
